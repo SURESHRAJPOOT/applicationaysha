@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application_aysha</string>
+   <string name="See_all"><a herf=" ">See All</a></string>
+    //herf me vo link aayega ,jis pr click kr ke "see_all" se redirect hua jayega
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/type_see_all2"
+            android:layout_width="72dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/averia_serif_libre_bold"
+            android:text="@string/See_all"
+            android:textColor="#2196F3"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.955"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/type1_recyclerview" />
+
+        <TextView
+            android:id="@+id/type_htext2"
+            android:layout_width="195dp"
+            android:layout_height="28dp"
+            android:fontFamily="@font/averia_serif_libre_bold"
+            android:text="Most Populor Birds"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/type_see_all2"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/type1_recyclerview"
+            app:layout_constraintVertical_bias="0.048" />
+
+        <TextView
+            android:id="@+id/type_see_all"
+            android:layout_width="72dp"
+            android:layout_height="19dp"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/averia_serif_libre_bold"
+            android:text="@string/See_all"
+            android:textColor="#2196F3"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/type_htext"
+            app:layout_constraintEnd_toEndOf="@+id/start_button"
+            app:layout_constraintTop_toTopOf="@+id/type_htext"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="310dp"
+            android:layout_height="45dp"
+            android:fontFamily="@font/averia_serif_libre_bold"
+            android:text=" Explore Birds!"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.059"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.053" />
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="389dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="131dp"
+            android:layout_marginEnd="177dp"
+            android:layout_marginBottom="300dp"
+            android:backgroundTint="#42A5F5"
+            android:fontFamily="@font/averia_serif_libre_bold"
+            android:stateListAnimator="@null"
+            android:text="Start Exploring the Birds"
+
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:cornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.165"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/type_htext"
+            android:layout_width="195dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/averia_serif_libre_bold"
+            android:text="Catagory of Birds"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/start_button"
+            app:layout_constraintTop_toBottomOf="@+id/start_button" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/type1_recyclerview"
+            android:layout_width="404dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/type_htext"
+            app:layout_constraintVertical_bias="0.12" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/type1_recyclerview2"
+            android:layout_width="413dp"
+            android:layout_height="222dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/type_htext2"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>
